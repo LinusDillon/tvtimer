@@ -1,0 +1,923 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"curr",
+				"currentPageCopy\tstatement"
+			],
+			[
+				"stat",
+				"statmenu_pages\tmodule"
+			],
+			[
+				"Term",
+				"TerminalManager\tclass"
+			],
+			[
+				"gra",
+				"graceful_killer\tmodule"
+			],
+			[
+				"ki",
+				"kill_now\tstatement"
+			],
+			[
+				"i",
+				"iteritems\tfunction"
+			],
+			[
+				"en",
+				"endLoop\tfunction"
+			],
+			[
+				"cu",
+				"currentPage\tstatement"
+			],
+			[
+				"menuSel",
+				"menuSelectedOption\tstatement"
+			],
+			[
+				"sel",
+				"menuSelectedIndex"
+			],
+			[
+				"menu",
+				"menuOptions\tstatement"
+			],
+			[
+				"R",
+				"R_pin"
+			],
+			[
+				"mov",
+				"movedirection"
+			],
+			[
+				"tou",
+				"touch_mm"
+			],
+			[
+				"touch",
+				"touch_hh"
+			],
+			[
+				"dst",
+				"dstDirectory"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"Write",
+				"WriteResultRow"
+			],
+			[
+				"Writ",
+				"WriteResultRow"
+			],
+			[
+				"Status",
+				"StatusCode"
+			],
+			[
+				"St",
+				"StatusDescription"
+			],
+			[
+				"pa",
+				"parsed"
+			],
+			[
+				"Tr",
+				"true"
+			],
+			[
+				"appTy",
+				"appType"
+			],
+			[
+				"Applicatio",
+				"ApplicationTypeName"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"hea",
+				"header\t<header>"
+			],
+			[
+				"ligh",
+				"lightEnabledButton"
+			],
+			[
+				"li",
+				"lightEnabled"
+			],
+			[
+				"lig",
+				"lightEnabledButton"
+			],
+			[
+				"ti",
+				"title\t<title>"
+			],
+			[
+				"a",
+				"always"
+			],
+			[
+				"page-",
+				"page-break-after"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"mul",
+				"multiplierColour"
+			],
+			[
+				"displ",
+				"displayUnit"
+			],
+			[
+				"dis",
+				"displayMultiplier"
+			],
+			[
+				"di",
+				"digit"
+			],
+			[
+				"for",
+				"formattedVal"
+			],
+			[
+				"bui",
+				"buildTitle"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"Init",
+				"InitDisplay\tfunction"
+			],
+			[
+				"tcik",
+				"ticked"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tvtimer.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/JSLint/JSLint.sublime-build",
+					""
+				],
+				[
+					"Packages/User/debug.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/JSLint/JSLint.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 352.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Pretty JSON: JSON query with ./jq"
+			],
+			[
+				"PEP8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/pi/src/tvtimer"
+	],
+	"file_history":
+	[
+		"/Volumes/pi/src/NeoPixel/rpi_neopixel_simpletest.py",
+		"/Volumes/share/src/NeoPixel/blank.py",
+		"/Users/ldillon/Downloads/Logs-1/DataSyncService-20190505.txt",
+		"/Users/ldillon/Downloads/DataSyncService-20190416.txt",
+		"/Volumes/boot/ssh",
+		"/Volumes/boot/wpa_supplicant.conf",
+		"/Volumes/Home Directory/Stat-Menu-Working/statmenu_adafruit_ssd1306.py",
+		"/Volumes/Home Directory/Stat-Menu-Working/statmenu_terminal_manager.py",
+		"/Volumes/Home Directory/Stat-Menu-Working/statmenu.py",
+		"/Volumes/Home Directory/Stat-Menu-Working/statmenu_pages.py",
+		"/Volumes/Home Directory/Stat-Menu-Working/statmenu_menu.py",
+		"/Volumes/Home Directory/Stat-Menu-Working/graceful_killer.py",
+		"/Volumes/Home Directory/Stat-Menu/statmenu.py",
+		"/Users/ldillon/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/ldillon/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/ldillon/.ssh/known_hosts",
+		"/Users/ldillon/Desktop/Profile/profile.txt",
+		"/Volumes/Home Directory/stat-menu/statmenu.py",
+		"/Volumes/Home Directory/stat-menu/statmenu_adafruit_ssd1306.py",
+		"/Volumes/Home Directory/stat-menu/.gitignore",
+		"/Volumes/Home Directory/Adafruit_Python_SSD1306/examples/stats.py",
+		"/Volumes/Home Directory/stat-menu/test.py",
+		"/Volumes/Home Directory/stat-menu/stat-menu.py",
+		"/Volumes/boot/config.txt",
+		"/Volumes/boot/issue.txt",
+		"/Users/ldillon/Downloads/Smart_compact_temperature_calibration_tower/files/PLA_t_tower_before_layer_change_macro.txt",
+		"/Volumes/boot/cmdline.txt",
+		"/Users/ldillon/Library/Mobile Documents/com~apple~CloudDocs/PNR Autogate/request and response.xml",
+		"/Users/ldillon/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/A88BF386-1419-4A45-897A-7C1171399348/SPerth-AUD4260NJL-2018-11-21-00-30-15/DataSyncService Logs/DataSyncService-20181121.txt",
+		"/private/etc/ppp/peers/vpn.mandalay",
+		"/Users/ldillon/Downloads/original_msg-2.txt",
+		"/Users/ldillon/Downloads/mhx2-mh-20180302/README.md",
+		"/Users/ldillon/=3.0",
+		"/Users/ldillon/Dropbox/Projects/3d Printer/Prusa i3 Mk2 Improvements/Logitec C270 Webcam/Prusa_i3_MK3_logitech_C270_camera_mount./README.txt",
+		"/Users/ldillon/Documents/1Password 2018-09-11, 06_12 pm (828 items and 1 folders).1pif/data.1pif",
+		"/Volumes/boot/octopi.txt",
+		"/Volumes/boot/octopi-network.txt",
+		"/Users/ldillon/Desktop/calibration.txt",
+		"/Volumes/boot/octopi-wpa-supplicant.txt",
+		"/Users/ldillon/Dropbox/Projects/Arduino/libraries/Adafruit_SSD1306_Wemos_Mini_OLED/library.properties",
+		"/Users/ldillon/Dropbox/Projects/Rudy Sculpture/Design/T3C1/T3C1 Both + T3C2 Bracket.gcode",
+		"/Users/ldillon/Documents/GitHub/rosnodejs/test/messages.js",
+		"/Users/ldillon/Documents/GitHub/rosnodejs/src/examples/turtle.js",
+		"/Users/ldillon/Documents/GitHub/rosnodejs/test/xmlrpcTest.js",
+		"/Users/ldillon/Dropbox/Projects/Git/ros_web_teleop/scripts/ros_web_teleop.js",
+		"/Users/ldillon/Downloads/index.txt",
+		"/Users/ldillon/Dropbox/Projects/Rudy Sculpture/Design/T4C3/old/T4C3_Standoffs.dxf",
+		"/Users/ldillon/.ssh/config",
+		"/Users/ldillon/Dropbox/Projects/USB PSU/Front CC.gcode",
+		"/Users/ldillon/Dropbox/Projects/USB PSU/Front.gcode",
+		"/Users/ldillon/Desktop/1Password.txt",
+		"/Users/ldillon/Downloads/Inkscape-OpenSCAD-DXF-Export-master/openscad_dxf/openscad_dxf.py",
+		"/Users/ldillon/Desktop/country=AU",
+		"/Users/ldillon/Desktop/Untitled clipping.textClipping",
+		"/Users/ldillon/Downloads/devkit_install_mac_1/install.sh",
+		"/Users/ldillon/Downloads/model.pkl",
+		"/Volumes/Private/randomise_pics.sh",
+		"/Users/ldillon/Downloads/original_msg.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.Warehouse/Naus.Warehouse.Data.Interfaces/IDbContextManager.cs",
+		"/private/var/folders/g2/mw3lbnlx2_qcr6cjlsfvjdqr0000gn/T/com.microsoft.Outlook/Outlook Temp/Ticket Line Item Mismatch Patch[2].sql",
+		"/private/var/folders/g2/mw3lbnlx2_qcr6cjlsfvjdqr0000gn/T/com.microsoft.Outlook/Outlook Temp/DataSyncService-20180306.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.Vouchers/src/Naus.Vouchers.VoucherManagement.Service/appsettings.Development.json",
+		"/Volumes/[C] Windows 10/Work/Scratch/appsettings.ldillon-debug.json",
+		"/Volumes/[C] Windows 10/Work/Scratch/voucher inttest appsettings.ldillon-debug.json",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/prod-201802260107-events_true-eventdistributor-dead.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/prod-201802260105-events_raw-eventaggregator-dead.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.Exports/.gitignore",
+		"/Users/ldillon/Desktop/Gumtree Feb 2018/details.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/VSS-DotNet/Production/Mandalay/Clients/TP Health/Sales Order Tracking Solution/Mandalay.Clients.TPHealth.SOTS.Workflow/Dispatch Order.xml",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/prod-201802080102-events_true-eventdistributor-dead.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/prod-201802080104-events_raw-eventaggregator-dead.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/prod-201802080110-events_distribution-syncclient_aef3e1546e3c4d078d11c6f43226fde2-dead.txt",
+		"/Users/ldillon/Downloads/MandalayCS.Service.log",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/dev-201802060851-commands-initialisationserver.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180205/20180205_raw_EventAggregator.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180205/20180205_dist_syncClient_3489b2c0ae4c42319abcce4455c18d72.txt",
+		"/Volumes/[C] Windows 10.hidden/Program Files/Mandalay Technologies/DataSync/DataSyncService.exe.Config",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/deployment/Client/PromptCSShutdown.ps1",
+		"/Users/ldillon/Downloads/DeleteContentsWarehouse.sql",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180130_raw_EventAggregator.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180130_raw_EventAggregator_b.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180130_distribution_syncClient_8de9882c26844896b15e5914a113881e.txt",
+		"/Volumes/[C] Windows 10/Work/MandalayCS/MandalayCS 3.4/MandalayCS.Legacy/Source/WMDatabaseClasses/HelperFunction.bas",
+		"/Volumes/[C] Windows 10/Work/MandalayCS/MandalayCS 3.4/MandalayCS.Legacy/Source/WMDatabaseClasses/CSchedule.cls",
+		"/Volumes/[C] Windows 10/Work/MandalayCS/MandalayCS 3.4/MandalayCS.Legacy/Source/Administration/ucAdministration_Clients.ctl",
+		"/Volumes/[C] Windows 10/Work/MandalayCS/MandalayCS 3.4/MandalayCS.Legacy/Source/Administration/ucAdministration_Contracts.ctl",
+		"/Volumes/[C] Windows 10/Work/MandalayCS/MandalayCS 3.4/MandalayCS.Legacy/Source/WMDatabaseClasses/CContract.cls",
+		"/Users/ldillon/Downloads/previous-StorageExplorer.zip",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180122/distribution_8DE9882C-2684-4896-B15E-5914A113881E_dead.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180122/distribution_agg_sum.json",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180122/distribution_agg.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180122/distribution_agg_sum.txt",
+		"/Users/ldillon/Documents/Work/client dead letter.ps1",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180122/client_machines.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/bin/Debug/20180122/commands_distributor_dead.txt",
+		"/Volumes/[C] Windows 10/Work/MandalayCS/MandalayCS 3.4/MandalayCS.Interop/AssetCapture/AssetCaptureInterop.cs",
+		"/Volumes/[C] Windows 10/Work/MandalayCS/MandalayCS 3.4/MandalayCS.Legacy/Source/Ticketing/Global.bas",
+		"/Users/ldillon/Downloads/MandalayCS_DataExport350204_89f09f6b-4e2a-44cb-be73-73d1cc312537.rdp.html",
+		"/Volumes/[C] Windows 10/Work/MandalayCS/MandalayCS 3.4/MandalayCS.Legacy/Source/WMDatabaseClasses/Database.bas",
+		"/Volumes/[C] Windows 10/Work/Naus.DataSync/Main/Naus.DataSync/Naus.DataSync.SupportTool/indextabledata.ps1",
+		"/private/var/folders/g2/mw3lbnlx2_qcr6cjlsfvjdqr0000gn/T/com.microsoft.Outlook/Outlook Temp/Shell Harbour (Tech One Finance).sql",
+		"/Users/ldillon/Downloads/Enable Image Upload.sql",
+		"/Volumes/[C] Windows 10.hidden/ProgramData/Mandalay/DataSyncService/Logs/DataSyncService-20180104.txt",
+		"/Volumes/[C] Windows 10.hidden/ProgramData/Mandalay/DataSyncService/Logs/DataSyncService-20180105.txt",
+		"/Volumes/[C] Windows 10.hidden/ProgramData/Mandalay/DataSyncService/Logs/DataSyncService-20180108.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/init deadletter dev.txt",
+		"/Users/ldillon/Downloads/MandalayCS_Ticketing350205_0f3b1f86-29af-43b9-8e4e-6cc4a009e764.rdp",
+		"/Users/ldillon/Downloads/Visual Studio Premium with MSDN-1-2-2018-credentials.publishsettings",
+		"/private/var/folders/g2/mw3lbnlx2_qcr6cjlsfvjdqr0000gn/T/com.microsoft.Outlook/Outlook Temp/2017-12-21_DeadLetterQueue_ToDelete[6].txt",
+		"/private/var/folders/g2/mw3lbnlx2_qcr6cjlsfvjdqr0000gn/T/com.microsoft.Outlook/Outlook Temp/2017-12-21_DeadLetter_Investigate[2].txt",
+		"/Volumes/[C] Windows 10/Work/Scripts/git-cleanup.ps1",
+		"/Users/ldillon/Downloads/license.dvl.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/support/tail-log.ps1",
+		"/Volumes/[C] Windows 10/Work/Deployment.Tenant/Deployment.Tenant/Powershell/CreateCsDatabases.ps1",
+		"/Volumes/[C] Windows 10/Work/MandalayCS/MandalayCS 3.4/MandalayCS.Database/Current/MT_Store_DB_Create_CreateDatabase_Azure.sql",
+		"/private/var/folders/g2/mw3lbnlx2_qcr6cjlsfvjdqr0000gn/T/com.microsoft.Outlook/Outlook Temp/LCCQ_results[2].txt",
+		"/private/var/folders/g2/mw3lbnlx2_qcr6cjlsfvjdqr0000gn/T/com.microsoft.Outlook/Outlook Temp/LCCQ_results[1].txt",
+		"/private/var/folders/g2/mw3lbnlx2_qcr6cjlsfvjdqr0000gn/T/com.microsoft.Outlook/Outlook Temp/LCCQ_results.txt",
+		"/Users/ldillon/Downloads/LCC-ServiceQuarry-log.txt",
+		"/Users/ldillon/Downloads/2017-12-14_DeadLetter_Investigate.xml",
+		"/Users/ldillon/Downloads/2017-12-13_DeadLetterQueue.txt",
+		"/private/var/folders/g2/mw3lbnlx2_qcr6cjlsfvjdqr0000gn/T/com.microsoft.Outlook/Outlook Temp/COM GENERATE Missing Views Procedures and Functions V2.sql",
+		"/Users/ldillon/Downloads/AdminInfo.txt",
+		"/Users/ldillon/Downloads/UserInfo.txt",
+		"/Users/ldillon/Downloads/TenantInfo.txt",
+		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/deployment/Client/InstallMandalayCS.ps1",
+		"/Users/ldillon/Documents/SQL Server Management Studio/LastUpdated Data Fix.sql",
+		"/Users/ldillon/Documents/SQL Server Management Studio/LastUpdated Data Fix - TransactionLog.sql"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tvtimer.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.1455083004.727818":
+	{
+		"height": 100.0
+	},
+	"output.1455153674.60051":
+	{
+		"height": 100.0
+	},
+	"output.1455153714.431009":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Applications/arduino.app/Contents/Java/examples/01.Basics/Blink|1455083190.640536":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/GPSClock|1455083574.515103":
+	{
+		"height": 207.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/GPSClock|1455084489.584564":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/GPSClock|1455084561.194938":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455177812.763538":
+	{
+		"height": 278.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455177860.69698":
+	{
+		"height": 134.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455177896.601708":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455177925.617726":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455178093.903749":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455178577.831147":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455178590.234381":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455178621.697559":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455178640.697492":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455178665.364368":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455178683.797053":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455180274.372592":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455180451.612082":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455180472.043537":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455180564.407672":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455180615.975751":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455180625.503706":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455180765.111769":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455180804.330833":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455180835.4478":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455181692.009835":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455182791.795542":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455182950.763545":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455182958.294611":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455183253.547557":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459335397.107479":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459336521.462032":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459410358.796354":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459410833.988752":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459410853.729774":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459410876.826678":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459412142.217852":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459412152.164856":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459414185.421828":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459414245.987844":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459414479.912307":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459415293.318065":
+	{
+		"height": 100.0
+	},
+	"output.build|/Users/ldillon/Dropbox/Projects/Arduino/Rover1ROSSerial|1455153864.341352":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 367.0
+	},
+	"output.find_results":
+	{
+		"height": 240.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455181587.618478":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455181613.381467":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455181697.800967":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455182796.258759":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455182829.042757":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455182960.363623":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455183041.803542":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455183108.795383":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455183255.427535":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455183550.707517":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455183682.803347":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455183916.859504":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455184043.043539":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455184052.062307":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455184119.894229":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455184284.291504":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1455184333.405444":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459412157.377188":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459412180.551918":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459412406.773304":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459412719.494671":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459414254.743198":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459414389.58933":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459414481.692137":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459415295.185656":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459415402.945621":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459415994.994499":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459416087.594817":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459416166.937731":
+	{
+		"height": 100.0
+	},
+	"output.upload|/Users/ldillon/Dropbox/Projects/Arduino/ROSArduinoBridge|1459416294.573475":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "tvtimer.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 393.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
