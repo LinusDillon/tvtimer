@@ -1,28 +1,46 @@
 import paho.mqtt.client as mqtt
 
 
-# The callback for when the client receives a CONNACK response from the server.
-def on_connect(client, userdata, flags, rc):
-    print("Connected with result code " + str(rc))
+class TvTimerDaemon(Daemon):
 
-    # Subscribing in on_connect() means that if we lose the connection and
-    # reconnect then subscriptions will be renewed.
-    client.subscribe("tele/sonoff-tv/SENSOR")
+    def __init__(self, mqttServer, mqttPort, switchName):
+        self.mqttServer = mqttServer
+        self.mqttPort = mqttPort
+        self.switchName = switchName
+        self.sensorTopic = "tele/" + self.switchName + "/SENSOR"
+        self.mqttClient = mqtt.Client()
+        self.mqttClient.on_connect = self.mqttOnConnect
+        self.mqttClient.on_message = self.mqttOnMessage
+    
+    def mqttOnConnect(client, userdata, flags, rc):
+        print("Connected with result code " + str(rc))
+        print("Subscribing to " + self.sensorTopic)
+        client.subscribe(self.sensorTopic)
+
+    def mqttOnMessage(client, userdata, msg):
+        print(msg.topic + " " + str(msg.payload))
+
+    def run(self):
+        self.mqttClient.connect(self.mqttServer, self.mqttPort, 60)
+        self.mqttClient.loop_start()
+        while True:
+            time.sleep(30)
+        self.mqttClient.loop_stop()
 
 
-# The callback for when a PUBLISH message is received from the server.
-def on_message(client, userdata, msg):
-    print(msg.topic + " " + str(msg.payload))
-
-
-client = mqtt.Client()
-client.on_connect = on_connect
-client.on_message = on_message
-
-client.connect("zen", 1883, 60)
-
-# Blocking call that processes network traffic, dispatches callbacks and
-# handles reconnecting.
-# Other loop*() functions are available that give a threaded interface and a
-# manual interface.
-client.loop_forever()
+if __name__ == "__main__":
+    daemon = TvTimerDaemon()
+    if len(sys.argv) == 2:
+        if 'start' == sys.argv[1]:
+            daemon.run()
+        elif 'stop' == sys.argv[1]:
+            print "Not implemented"
+        elif 'restart' == sys.argv[1]:
+            print "Not implemented"
+        else:
+            print "Unknown command"
+            sys.exit(2)
+        sys.exit(0)
+    else:
+        print "usage: %s start|stop|restart" % sys.argv[0]
+        sys.exit(2)
