@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"isoformat"
+			],
+			[
+				"dat",
+				"datetime\tclass"
+			],
+			[
+				"date",
+				"datetime\tmodule"
+			],
+			[
+				"to",
+				"today"
+			],
+			[
+				"week",
+				"weeklyLimit\tparam"
+			],
+			[
+				"tot",
+				"totalOnTimeTodayWhenPoweredOn\tstatement"
+			],
+			[
+				"total",
+				"totalOnTimeToday\tstatement"
+			],
+			[
+				"tvPo",
+				"tvPowerOnTime\tstatement"
+			],
+			[
+				"tv",
+				"tvPowerOnState"
+			],
+			[
+				"cl",
+				"clock\tfunction"
+			],
+			[
+				"po",
+				"powerThreshold\tstatement"
+			],
+			[
 				"curr",
 				"currentPageCopy\tstatement"
 			],
@@ -219,7 +263,8 @@
 			"file": "tvtimer.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3979,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -508,24 +553,41 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3979,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2871,
+								2883
 							]
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
 							"open_with_edit": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 541.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

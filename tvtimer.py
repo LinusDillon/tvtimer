@@ -1,11 +1,12 @@
 import paho.mqtt.client as mqtt
 import time
+import datetime
 import json
 
 
 class TvTimerDaemon():
 
-    def __init__(self, mqttServer, mqttPort, switchName, powerThreshold):
+    def __init__(self, mqttServer, mqttPort, switchName, powerThreshold, dailyLimit, weeklyLimit, carryOverLimit):
         self.mqttServer = mqttServer
         self.mqttPort = mqttPort
         self.switchName = switchName
@@ -19,6 +20,9 @@ class TvTimerDaemon():
         self.mqttClient = mqtt.Client()
         self.mqttClient.on_connect = self.mqttOnConnect
         self.mqttClient.on_message = self.mqttOnMessage
+        self.dailyLimit = dailyLimit
+        self.weeklyLimit = weeklyLimit
+        self.carryOverLimit = carryOverLimit
 
     def mqttOnConnect(self, client, userdata, flags, rc):
         print("Connected with result code " + str(rc))
@@ -43,10 +47,16 @@ class TvTimerDaemon():
                 self.tvPowerOffTime = time.time()
             self.lastTvPowerOnState = tvPowerOnState
 
+    def effectiveDate(self):
+        today = datetime.datetime.now() - datetime.timedelta(hours=4)
+        return today.date().isoformat()
+
     def run(self):
         self.mqttClient.connect(self.mqttServer, self.mqttPort, 60)
         self.mqttClient.loop_start()
+        self.date = self.effectiveDate()
         loopDivisor = 0
+        publishPayload = {}
         while True:
             # If TV is on, update the total on time
             if self.lastTvPowerOnState:
@@ -54,6 +64,15 @@ class TvTimerDaemon():
                 self.totalOnTimeToday = self.totalOnTimeTodayWhenPoweredOn + elapsedOnTime
             if (loopDivisor % 60) == 0:
                 print("TV on time today is " + str(self.totalOnTimeToday))
+
+            publishPayload['TimeOnToday'] = self.totalOnTimeToday
+            publishPayload['TvPowerState'] = self.lastTvPowerOnState
+            publishPayload['DailyLimit'] = self.dailyLimit
+            publishPayload['WeeklyLimit'] = self.weeklyLimit
+            publishPayload['CarryOverLimit'] = self.carryOverLimit
+            publishPayload['Date'] = self.date
+            self.mqttClient.publish("tvtimer", json.dumps(publishPayload), retain=True)
+
             loopDivisor += 1
             time.sleep(1)
         self.mqttClient.loop_stop()
@@ -68,7 +87,9 @@ class TvTimerDaemon():
 # Switch off TV if reached applied limits
 # Read limit bypass codes from topic and apply
 # Reset applied limits to default limits each day
+# Make a proper service with start/stop/restart
+
 
 if __name__ == "__main__":
-    daemon = TvTimerDaemon("zen", 1883, "sonoff-tv", 20)
+    daemon = TvTimerDaemon("zen", 1883, "sonoff-tv", 20, 80, 500, 15)
     daemon.run()
