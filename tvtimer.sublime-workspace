@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"publi",
+				"publishPayload\tstatement"
+			],
+			[
+				"rem",
+				"remainingToday\tstatement"
+			],
+			[
 				"is",
 				"isoformat"
 			],
@@ -263,7 +271,7 @@
 			"file": "tvtimer.py",
 			"settings":
 			{
-				"buffer_size": 3979,
+				"buffer_size": 5842,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -382,6 +390,7 @@
 	],
 	"file_history":
 	[
+		"/Users/ldillon/Downloads/DataSyncService-20190515.txt",
 		"/Volumes/pi/src/NeoPixel/rpi_neopixel_simpletest.py",
 		"/Volumes/share/src/NeoPixel/blank.py",
 		"/Users/ldillon/Downloads/Logs-1/DataSyncService-20190505.txt",
@@ -508,8 +517,7 @@
 		"/Users/ldillon/Downloads/UserInfo.txt",
 		"/Users/ldillon/Downloads/TenantInfo.txt",
 		"/Volumes/[C] Windows 10.hidden/Work/Naus.DataSync/Main/Naus.DataSync/deployment/Client/InstallMandalayCS.ps1",
-		"/Users/ldillon/Documents/SQL Server Management Studio/LastUpdated Data Fix.sql",
-		"/Users/ldillon/Documents/SQL Server Management Studio/LastUpdated Data Fix - TransactionLog.sql"
+		"/Users/ldillon/Documents/SQL Server Management Studio/LastUpdated Data Fix.sql"
 	],
 	"find":
 	{
@@ -553,15 +561,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3979,
+						"buffer_size": 5842,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2871,
-								2883
+								3939,
+								3939
 							]
 						],
 						"settings":
@@ -579,6 +587,10 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"open_with_edit": true,
@@ -587,7 +599,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 541.0,
+						"translation.y": 1156.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
